@@ -10,10 +10,10 @@
     
     <nav id="main"> 
       <ul>
-     	<li class="logo"><a href="#">BY:- KARTIK</a></li>
+     	<li class="logo"><a href="#">KARTIK</a></li>
         <li><a href="#">HOME</a></li>
         <li><a href="#">IMAGES</li>
-        <li><a href="#">TUNE GAME</li>
+        <li><a href="#">TUNEGAME</li>
         <li><a href="#">PUZZLE</a></li>
       </ul>
     </nav>
@@ -32,7 +32,7 @@
     <script type="text/javascript">
     	
     	const nav = document.querySelector('#main');
-    	const topOfNav = nav.offsetTop;
+    	const topOfNav = nav.offsetTop+10;
     	const div = document.querySelector('.site-wrap');
 
     	function fixedNav()
@@ -41,7 +41,7 @@
             
             if(window.scrollY >= topOfNav)
 	         {
-	        document.body.style.paddingTop = nav.offsetHeight+"px";
+	          document.body.style.paddingTop = (nav.offsetHeight-10)+"px";
 	          document.body.classList.add('fixed-nav');
 	         }
 	         else
