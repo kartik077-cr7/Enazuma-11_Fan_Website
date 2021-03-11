@@ -41,8 +41,8 @@ header {
 }
 
 h1 {
-  color: white;
-  font-size: 7vw;
+  color: black;
+  font-size: 4vw;
   text-shadow: 3px 4px 0 rgba(0,0,0,0.2);
 }
 
@@ -101,6 +101,18 @@ nav a {
   text-transform: uppercase;
 }
 
-  
-  
+  img
+  {
+    max-height: 400px;
+    max-width: 400px;
+  }
+  .align-left {
+      float: left;
+      margin-right: 20px;
+    }
+
+  .align-right{
+    float: right;
+    margin-left: 20px;
+  }
  
